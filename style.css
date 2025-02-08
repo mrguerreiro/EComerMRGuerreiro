@@ -1,0 +1,15 @@
+body {
+    min-width: 372px;
+}
+
+.bg-ouro {
+    background-color: #ffd700 !important;
+}
+
+.container {
+    color: black;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
