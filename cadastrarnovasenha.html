@@ -20,7 +20,7 @@
       href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Wilboor.com</title>
+    <title>Cadastro de nova senha</title>
   </head>
   <body>
     <div class="d-flex flex-column wrapper">
@@ -135,7 +135,26 @@
 
       <main class="flex-fill">
         <div class="container">
-          
+          <div class="row justify-content-center">
+            <form class="col-sm-10 col-md-8 col-lg-6">
+              <h1>Digite sua nova senha</h1>
+
+              <div class="form-floating mb-3">
+                <input type="password" id="txtSenha" class="form-control"
+                    placeholder=" " autofocus>
+                <label for="txtSenha">Nova Senha</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="password" id="txtSenha" class="form-control"
+                    placeholder=" " autofocus>
+                <label for="txtSenha">Confirme a Nova Senha</label>
+              </div>
+
+              <button type="button" onclick="window.location.href='/cconfirmcadastrosenha.html'" class="btn btn-lg btn-danger">Cadastrar nova senha</button>
+
+            </form>
+          </div>
         </div>
 
       </main>
@@ -144,7 +163,7 @@
         <div class="container">
           <div class="row py-3">
             <div class="col-12 col-md-4 text-center">
-              &copy; 2025 - Wilboor.com <br />
+              &copy; 2025 - Wilboor.com<br />
               Rua Geraldo Pecorari, 838, Macatuba, SP <br />
               CNPJ: 99.999.999/0001-99
             </div>
@@ -174,7 +193,7 @@
                 href="mailto:wilboor.com@gmail.com"
                 class="text-decoration-none text-dark"
               >
-                wilboor.com@gmail.com</a
+                wilboor.com@gmail.com </a
               ><br />
               Telefone:
               <a

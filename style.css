@@ -13,3 +13,14 @@ body {
 .wrapper {
     min-height: 100vh;
 }
+
+#carouselMain {
+    max-height: 150px; /* Define a altura desejada para o carrossel */
+    overflow: hidden;
+}
+
+#carouselMain .carousel-item img {
+    width: 100%; /* Mantém a largura do carrossel */
+    height: 150px; /* Define a altura fixa */
+    object-fit: contain; /* Garante que a imagem inteira seja exibida sem cortes */
+}
